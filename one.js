@@ -18,10 +18,10 @@ const fibonacciSeries = number => {
 
 console.log(error("The series for the number one is ") + fibonacciSeries(1));
 console.log(warning("The series for the number five is ") + fibonacciSeries(5));
-// console.log(error("The series for the number ten is ") + fibonacciSeries(10));
-// console.log(
-//   warning("The series for the number onehundred is ") + fibonacciSeries(100)
-// );
+console.log(error("The series for the number ten is ") + fibonacciSeries(10));
+console.log(
+  warning("The series for the number onehundred is ") + fibonacciSeries(100)
+);
 
 module.exports = {
   fibonacciSeries
